@@ -1,0 +1,219 @@
+body {
+    font-family:hind;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family:montserrat;
+    color: #2980b9;
+}
+ 
+h1{
+    columns: #000000;;
+    margin:40px 0 60px 0;
+    font-weight: 300;
+}
+
+p{
+    font-size:17px;   
+    color: #59b1ec;
+}
+
+.navbar {
+    border-radius: 0;
+    font-family:montserrat;
+    font-weight:600;
+}
+
+.btn-margin-left {
+    margin-left: 5px;
+}
+.btn-margin-right {
+    margin-right: 10px;
+}
+
+.btn-danger {
+    color: #fff;
+    background-color: #e64747;
+    border-color: #c0392b;
+    position: relative;
+    width: 10em;
+    height: 3em;
+    border-radius: 5px;
+    padding-top: 10px;
+}
+
+.btn-danger:hover {
+    background-color: #e74c3c;
+    border-color: #e74c3c;
+}
+
+.btn-success {
+    color: #fff;
+    background-color: #27ae60;
+    border-color: #27ae60;
+}
+
+.btn-success:hover {
+    background-color: #2ecc71;
+    border-color: #2ecc71;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #2980b9;
+    border-color: #2980b9;
+}
+
+.btn-primary:hover {
+    background-color: #3498db;
+    border-color: #3498db;
+}
+
+.badge-danger {
+    background-color: #e74c3c;
+}
+
+
+.jumbotron{
+
+    background-image: url(images/eventme.png);
+    display: -ms-flexbox;
+    -ms-flex-pack: center;
+    -ms-flex-align: center;
+    padding: 8em 0 6em 0;
+    -moz-align-items:center;
+    -webkit-align-items:center;
+    -ms-align-items:center;
+    align-items: center;
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    -moz-justify-content:center;
+    -webkit-justify-content:center;
+    -ms-justify-content:center;
+    justify-content: center;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    border-top: 0;
+    min-height: 100vh;
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+    max-height: 10em;
+    width: 100%;
+}
+
+.our-team-main{
+    width: 100%;
+    height: auto;
+    border-bottom: 5px #7e7ef7 solid;
+    background: #fff;
+    text-align: center;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    transition: 0.5s;
+    margin-bottom: 28px;
+}
+
+.our-team-main img{
+    border-radius: 50%;
+    margin-bottom: 20px;
+    width: 90px;
+    height: auto;
+}
+
+.our-team-main h3 {
+    font-size: 23px;
+    font-weight: 600;
+    color: #3498db;
+}
+
+.our-team-main p{
+    margin-bottom: 0;
+}
+
+.team-back{
+    width:100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 5px 15px 0 15px;
+    text-align: left;
+    background: #fff;
+    text-align: center;
+}
+
+.team-front{
+    width: 100%;
+    height: auto;
+    position: relative;
+    z-index : 10;
+    background: #fff;
+    padding: 15px;
+    bottom: 0;
+    transition: all 0.5s ease;
+}
+
+.our-team-main:hover{
+    border-color: #777;
+    transition: 0.5s
+}
+
+.our-team-main:hover .team-front{
+    bottom: -200px;
+    transition: all 0.5s ease;
+}
+
+.social{
+    -webkit-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    -o-transform: scale(0.8);
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    width: 5em;
+}
+
+.social:hover{
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+
+.Card{
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    width: 21em;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(175, 172, 172, 0.89);
+    border-radius: .35rem;
+    margin-top: 25px;
+    color:black;
+    cursor: pointer;
+    box-shadow: -.02em -.02em;
+}
+
+.Card:hover{
+    -webkit-transform: scale(1.08);
+    transform: scale(1.08);
+    box-shadow: .5em .2em .5em .2em #9fa1a3;
+}
+
+.image{
+    width: 100%;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+    border-style: none;
+    vertical-align: middle;
+}
